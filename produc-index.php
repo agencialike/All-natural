@@ -96,40 +96,29 @@ $(document).ready(function(){
 
     <div class="row ">
             <h1 class="titulos"> Productos</h1>
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/allnatural250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Agua All Natural</h1>
-              <button class="col-xs-12" id="expandir">Ver mas</button>
+            <div class="col-xs-12  col-md-2 vermas" id="expandir">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-3-1.jpg" class="img-responsive" alt="">
             </div>
 
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/naranjada250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Fox Cola</h1>
-              <button class="col-xs-12" id="expandir1">Ver mas</button>
+            <div class="col-xs-12  col-md-2 vermas" id="expandir1" >
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-4.jpg" class="img-responsive" alt="">
+             
             </div>
 
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/fox250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Nectar</h1>
-              <button class="col-xs-12" id="expandir2">Ver mas</button>
+            <div class="col-xs-12  col-md-2 vermas" id="expandir2">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-5.jpg" class="img-responsive" alt="">
             </div>
 
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/nectar250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Limonada y naranjada</h1>
-              <button class="col-xs-12" id="expandir3">Ver mas</button>
+            <div class="col-xs-12  col-md-2 vermas" id="expandir3">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-2-1.jpg" class="img-responsive" alt="">
             </div>
 
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/tonic250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Lim Tonic</h1>
-              <button class="col-xs-12" id="expandir4">Ver mas</button>
+            <div class="col-xs-12  col-md-2 vermas" id="expandir4">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-1-1.jpg" class="img-responsive" alt="">
             </div>
 
-            <div class="col-xs-12  col-md-2  vermas" >
-            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/mineral250.jpg" class="img-responsive" alt="">
-              <h1 style="font-size: 16px;">Varios</h1>
-              <button class="col-xs-12" id="expandir5">Ver mas</button>
+            <div class="col-xs-12  col-md-2  vermas" id="expandir5">
+            <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-6.jpg" class="img-responsive" alt="">
             </div>
     </div>    
 
@@ -139,10 +128,10 @@ $(document).ready(function(){
   <div class="row">
     <div class="col-xs-12 cnt" id="cont1">
       <div class="col-xs-12 contenidos " >
-      <img src="http://localhost/wordpress/wp-content/uploads/2017/08/allnatural250.jpg" class="img-responsive col-xs-3" alt="">
+      <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-3-1.jpg" class="img-responsive col-xs-3" alt="">
               
               <div class="col-xs-9">
-                  <h1 class="col-xs-12">Agua All Natural
+                  <h1 class="col-xs-12">Agua All Natural <br>
                   <span> Es obtenida a través de la red municipal agua siguiendo un tratamiento de declorinacion, filtración, radiación UV y ozonización apto para el consumo humano, en la cual se contemplan parámetros Físico Químicos y Microbiológicos para mantener estándares óptimos de calidad y ser considerados líderes en el mercado.</span></h1>
                   <h2 class="col-xs-12">Beneficios <br>
                     <span>Es necesario que ayudemos a nuestro cuerpo a mantener el equilibrio, compensando la pérdida de líquidos tomando no menos de 1,450 mililitros de agua diariamente y mucho mejor si completamos los dos litros.</span>
@@ -171,13 +160,15 @@ $(document).ready(function(){
 
     <div class="col-xs-12 cnt" id="cont2">
       <div class="col-xs-12 contenidos " >
-              <img src="http://localhost/wordpress/wp-content/uploads/2017/08/naranjada250.jpg" class="img-responsive col-xs-3" alt="">
+              <img src="http://localhost/wordpress/wp-content/uploads/2017/08/unnamed-4.jpg" class="img-responsive col-xs-3" alt="">
               
               <div class="col-xs-9">
-                  <h1 class="col-xs-12">Agua All Natural
-                  <span> Es obtenida a través de la red municipal agua siguiendo un tratamiento de declorinacion, filtración, radiación UV y ozonización apto para el consumo humano, en la cual se contemplan parámetros Físico Químicos y Microbiológicos para mantener estándares óptimos de calidad y ser considerados líderes en el mercado.</span></h1>
+                  <h1 class="col-xs-12">Fox Cola <br>
+                  <span> Bebida tradicional que viene en varios sabores:
+                        Naranja, manzana y fresa. En su proceso de fabricación se considera altos estándares de calidad, obteniendo un producto de características únicas.</span></h1>
                   <h2 class="col-xs-12">Beneficios <br>
-                    <span>Es necesario que ayudemos a nuestro cuerpo a mantener el equilibrio, compensando la pérdida de líquidos tomando no menos de 1,450 mililitros de agua diariamente y mucho mejor si completamos los dos litros.</span>
+                    <span>La gaseosa (también llamada refresco, bebida carbonatada o soda), es una bebida saborizada, efervescente sin alcohol.
+Estas bebidas suelen consumirse frías, para ser más refrescantes y para evitar la pérdida de dióxido de carbono, que le otorga la efervescencia</span>
                   </h2>
                   <div class="col-xs-12" style="padding:10px; ">
                   <h1 class="col-xs-12" >Galería</h1>
