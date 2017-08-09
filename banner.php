@@ -1,7 +1,4 @@
-
 <div class="wrapper">
-<?php include "navbar.php"; ?>
-
     <header class="header">
         <div class="container">
           <div class="row">

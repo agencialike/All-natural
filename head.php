@@ -10,10 +10,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-
+<script>
+  jQuery(document).on('click', '.mega-dropdown', function(e) {
+  e.stopPropagation()
+})
+</script>
 <body>
-  <div class="container-fluid menu">
-    <div class="container">
-      <?php include "navbar.php"; ?>
-    </div>
-  </div>
